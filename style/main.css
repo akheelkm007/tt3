@@ -1,0 +1,49 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Cinzel', serif;
+}
+
+.contacts {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+	overflow-x: scroll;
+}
+
+.phone, .email {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.logo {
+	width: 550px;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.mast {
+	background: #eadac0;
+}
+
+.gallery img {
+	width: 100%;
+}
+
+.content-section {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}

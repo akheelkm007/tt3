@@ -1,0 +1,28 @@
+.container {
+	width: 100%;
+	max-width: 550px;
+	margin: auto;
+	text-align: center;
+	padding: 15px;
+	box-sizing: border-box;
+	font-family: 'Old Standard TT';
+	position: relative;
+	
+}
+
+.content {
+	position: relative;
+}
+
+
+.content h2 {
+	font-weight: 200;
+}
+
+.content {
+  background: url('/images/g1.jpg');
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+  color: white;
+}

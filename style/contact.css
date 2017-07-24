@@ -1,0 +1,16 @@
+.heading {
+	padding-left: 25px;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.address {
+	padding-left: 25px;
+}
+
+.maps {
+	width: 100%;
+	height: 400px;
+}
