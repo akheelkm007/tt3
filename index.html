@@ -22,13 +22,20 @@
 </section>
 
 <section class="gallery">
-	<img src="images/g1.jpg">
+	<img id="gallery-image" src="images/g1.jpg">
 </section>
 
 <section class="content-section">
-	<a href="collection/">
+	<a href="story/">
 		<div>
 			<h2>OUR STORY</h2>
+			<h4>Hand Crafted Beds & Furniture</h4>
+			<img src="http://placehold.it/250x250?text=3">
+		</div>
+	</a>
+	<a href="collection/">
+		<div>
+			<h2>OUR COLLECTION</h2>
 			<h4>Hand Crafted Beds & Furniture</h4>
 			<img src="http://placehold.it/250x250?text=1">
 		</div>
@@ -40,16 +47,25 @@
 			<img src="http://placehold.it/250x250?text=2">
 		</div>
 	</a>
-	<a href="story/">
-		<div>
-			<h2>OUR STORY</h2>
-			<h4>Hand Crafted Beds & Furniture</h4>
-			<img src="http://placehold.it/250x250?text=3">
-		</div>
-	</a>
 </section>
-
-
-
 </body>
+<script>
+	var gallery_image = document.getElementById("gallery-image");
+	var arrayOfImages = ["images/g1.jpg", "images/g2.jpg", "images/g3.jpg"]
+
+	function sleep(ms) {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	}
+
+	async function cycleThroughImages() {
+		for(var i=0;;i++){
+			await sleep(3000);
+			var position = i%arrayOfImages.length
+			gallery_image.src = arrayOfImages[position]
+			console.log("Changed gallery image.")
+		}
+	}
+
+	cycleThroughImages()
+</script>
 </html>
