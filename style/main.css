@@ -34,6 +34,7 @@ body {
 
 .gallery img {
 	width: 100%;
+	height: 56vw;
 }
 
 .content-section {
@@ -41,9 +42,28 @@ body {
 	justify-content: space-around;
 	text-align: center;
 	flex-wrap: wrap;
+	padding-bottom: 150px;
 }
 
 a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.footer {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: #eadac0;
+}
+
+.footer h4 {
+	margin: 0;
+	text-align: center;
+}
+
+.footer img {
+	display: block;
+	margin: auto;
+	width: 50px;
+	height: 50px;
 }
