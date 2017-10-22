@@ -22,7 +22,7 @@
 </section>
 
 <section class="gallery">
-	<img id="gallery-image" src="images/g1.jpg">
+	<img id="gallery-image" src="images/gallery/g1.jpg">
 </section>
 
 <section class="content-section">
@@ -30,28 +30,33 @@
 		<div>
 			<h2>OUR STORY</h2>
 			<h4>Hand Crafted Beds & Furniture</h4>
-			<img src="http://placehold.it/250x250?text=3">
+			<img src="/images/square/story.jpg">
 		</div>
 	</a>
 	<a href="collection/">
 		<div>
 			<h2>OUR COLLECTION</h2>
 			<h4>Hand Crafted Beds & Furniture</h4>
-			<img src="http://placehold.it/250x250?text=1">
+			<img src="/images/square/collection.jpg">
 		</div>
 	</a>
 	<a href="contact/">
 		<div>
 			<h2>CONTACT US</h2>
 			<h4>Call or visit our showroom</h4>
-			<img src="http://placehold.it/250x250?text=2">
+			<img src="/images/square/contact.jpg">
 		</div>
 	</a>
 </section>
 </body>
 <script>
 	var gallery_image = document.getElementById("gallery-image");
-	var arrayOfImages = ["images/g1.jpg", "images/g2.jpg", "images/g3.jpg"]
+	var prefix = "images/gallery/g"
+	var arrayOfImages = []
+	var numberOfImages = 5
+	for (var i=1; i< numberOfImages; i++) {
+		arrayOfImages.push(prefix+i+".jpg")
+	}
 
 	function sleep(ms) {
 		return new Promise(resolve => setTimeout(resolve, ms));

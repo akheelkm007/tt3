@@ -20,7 +20,7 @@
 }
 
 .content {
-  background: url('../images/g1.jpg');
+  background: url('../images/bg/collection.jpg');
   background-size: cover;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); 

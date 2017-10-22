@@ -18,3 +18,11 @@
 .content h2 {
 	font-weight: 200;
 }
+
+.content {
+  background: url('../images/bg/story.jpg');
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); 
+  color: white;
+}
