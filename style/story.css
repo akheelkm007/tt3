@@ -26,3 +26,52 @@
   filter: grayscale(100%); 
   color: white;
 }
+
+.showcase {
+	height: 1300px;
+	max-width: 980px;
+	margin: auto;
+	position: relative;
+}
+
+.img1 {
+	width: 680px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img2 {
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 680px;
+}
+
+.img4 {
+	width: 684.2px;
+	position: absolute;
+	top: 452px;
+	left: 0;
+}
+
+.img3 {
+	position: absolute;
+	width: 295px;
+	top: 452px;
+	left: 684.2px;
+}
+
+.img5 {
+	position: absolute;
+	width: 506px;
+	top: 896px;
+	left: 0px;
+}
+
+.img6 {
+	position: absolute;
+	width: 473px;
+	top: 896px;
+	left: 506px;
+}

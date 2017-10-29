@@ -26,3 +26,80 @@
   filter: grayscale(100%); 
   color: white;
 }
+
+.showcase {
+	height: 3200px;
+	max-width: 980px;
+	margin: auto;
+	position: relative;
+}
+
+.img1 {
+	width: 482.5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img2 {
+	width: 497.5px;
+	position: absolute;
+	top: 0;
+	left: 481.5px;
+}
+
+.img4 {
+	width: 496px;
+	position: absolute;
+	top: 731px;
+	left: 0;
+}
+
+.img3 {
+	position: absolute;
+	width: 484.6px;
+	top: 731px;
+	left: 495.3px;
+}
+
+.img5 {
+	position: absolute;
+	width: 666.8px;
+	top: 1475px;
+	left: 0px;
+}
+
+.img6 {
+	position: absolute;
+	width: 313.2px;
+	top: 1475px;
+	left: 666.8px;
+}
+
+.img7 {
+	position: absolute;
+	width: 496.8px;
+	top: 1918px;
+	left: 0px;
+}
+
+.img8 {
+	position: absolute;
+	width: 483.2px;
+	top: 1918px;
+	left: 496.8px;
+}
+
+.img9 {
+	position: absolute;
+	width: 297.4px;
+	top: 2670px;
+	left: 0px;
+}
+
+.img10 {
+	position: absolute;
+	width: 682.6px;
+	top: 2670px;
+	left: 297.4px;
+}
